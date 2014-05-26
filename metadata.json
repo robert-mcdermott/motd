@@ -1,0 +1,30 @@
+{
+  "name": "motd",
+  "description": "Maintains the /etc/motd file",
+  "long_description": "Maintains the /etc/motd file\n",
+  "maintainer": "Robert McDermott",
+  "maintainer_email": "rmcdermo@fhcrc.org",
+  "license": "Apache 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "motd": "Maintains the /etc/motd file"
+  },
+  "version": "1.0.2"
+}

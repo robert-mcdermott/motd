@@ -1,0 +1,23 @@
+
+ ______ _    _  _____ _____   _____ 
+|  ____| |  | |/ ____|  __ \ / ____|
+| |__  | |__| | |    | |__) | |     
+|  __| |  __  | |    |  _  /| |     
+| |    | |  | | |____| | \ \| |____ 
+|_|    |_|  |_|\_____|_|  \_\\_____|
++------------------------------------------------+
+| Scientific Computing: http://scicomp.fhcrc.org |
++------------------------------------------------+
+
+Node: <%= node['fqdn'] %> (<%= node['ipaddress']%>)
+OS: <%= node['lsb']['description']%> 
+Hardware: <%= node['dmi']['system']['product_name']%>
+CPU cores: <%= node['cpu']['total']%>
+CPU model: <%= node['cpu']['0']['model_name']%>
+RAM: <%= node['memory']['total']%>
+Uptime: <%= node['uptime']%>
+Perl version: <%= node['languages']['perl']['version']%>
+Python version: <%= node['languages']['python']['version']%>
+Ruby version: <%= node['languages']['ruby']['version']%>
+
+
