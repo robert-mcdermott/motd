@@ -5,5 +5,5 @@ description       "Maintains /etc/motd file"
 long_description  <<-EOH
 Maintains /etc/motd file
 EOH
-version           "1.0.4"
+version           "1.0.5"
 recipe            "motd", "maintains /etc/motd file"
