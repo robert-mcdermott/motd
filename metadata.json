@@ -26,5 +26,5 @@
   "recipes": {
     "motd": "Maintains the /etc/motd file"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

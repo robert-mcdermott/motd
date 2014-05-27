@@ -7,5 +7,5 @@ template "/etc/motd" do
   group "root"
   owner "root"
   mode "0644"
-  backup 2
+  backup 3
 end
